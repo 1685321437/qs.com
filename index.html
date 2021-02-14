@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<meta charset="gbk" />
+		<meta charset="gb2312" />
 		<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no"> 
-		<title>ÍõÇïº®ÎÊÄã¸öÎÊÌâ</title>
+		<title>çŽ‹ç§‹å¯’é—®ä½ ä¸ªé—®é¢˜</title>
 		<style>
 			body{
 				width: 100%;
@@ -30,10 +30,10 @@
 	</head>
 	<body>
 		<div>
-			<h1>ÄãÏ²»¶ÎÒÂð£¿£¿£¿</h1>
+			<h1>ä½ å–œæ¬¢æˆ‘å—ï¼Ÿï¼Ÿï¼Ÿ</h1>
 			<p id="p"></p>
-			<button id="yes">Ï²»¶</button>
-			<button id="no">²»Ï²»¶</button>
+			<button id="yes">å–œæ¬¢</button>
+			<button id="no">ä¸å–œæ¬¢</button>
 		</div>
 	</body>
 	<script>
@@ -42,10 +42,10 @@
 			var no=document.getElementById("no");
 			var p=document.getElementById("p");
 			yes.onclick=function(){
-				alert("¹þ¹þ¹þ£¡£¡£¡ÎÒÒ²Ï²»¶Äã");
+				alert("å“ˆå“ˆå“ˆï¼ï¼ï¼æˆ‘ä¹Ÿå–œæ¬¢ä½ ");
 			}
 			
-			var z=new Array("ÔõÃ´£¿²»³ÐÈÏ£¿","³ÐÈÏÁË°É","¿ì³ÐÈÏÁË°É","ºß£¬ÄÇÎÒÏûÊ§ÁË","²»³ÐÈÏ£¬ÕæÏûÊ§ÁË","ÏûÊ§£¬¿´ÄãÏ²²»Ï²»¶ÎÒ£¬ºß");
+			var z=new Array("æ€Žä¹ˆï¼Ÿä¸æ‰¿è®¤ï¼Ÿ","æ‰¿è®¤äº†å§","å¿«æ‰¿è®¤äº†å§","å“¼ï¼Œé‚£æˆ‘æ¶ˆå¤±äº†","ä¸æ‰¿è®¤ï¼ŒçœŸæ¶ˆå¤±äº†","æ¶ˆå¤±ï¼Œçœ‹ä½ å–œä¸å–œæ¬¢æˆ‘ï¼Œå“¼");
 			var i=0
 			no.onclick=function(){
 				p.innerHTML +=z[i]+"<br>";
